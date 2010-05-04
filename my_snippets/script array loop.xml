@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>script array loop</name>
+<help></help>
+<starttext><![CDATA[for (local.p = 1; local.p <= ArrayLen(local.properties); local.p++) {]]></starttext>
+<endtext><![CDATA[}]]></endtext>
+</snippet>

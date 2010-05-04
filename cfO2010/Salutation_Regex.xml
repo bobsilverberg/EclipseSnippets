@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>Salutation_Regex</name>
+<help></help>
+<starttext><![CDATA[		<property name="Salutation">
+			<rule type="required" contexts="Profile" />
+			<rule type="regex"
+				failureMessage="Only Dr, Prof, Mr, Mrs, Ms, or Miss (with or without a period) are allowed.">
+				<param Regex="^(Dr|Prof|Mr|Mrs|Ms|Miss)(\.)?$" />
+			</rule>
+		</property>
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>7_NickName_CustomRule</name>
+<help></help>
+<starttext><![CDATA[<property name="Nickname">
+			<rule type="custom" failureMessage="That Nickname is already taken.  Please try a different Nickname.">
+				<param methodname="CheckDupNickname" />
+				<param remoteURL="CheckDupNickname.cfm" />
+			</rule>
+		</property>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

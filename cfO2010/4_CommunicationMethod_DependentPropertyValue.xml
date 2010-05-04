@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>4_CommunicationMethod_DependentPropertyValue</name>
+<help></help>
+<starttext><![CDATA[<property name="CommunicationMethod" desc="Communication Method">
+			<rule type="required"
+				failureMessage="If you are allowing communication, you must choose a communication method.">
+				<param DependentPropertyName="AllowCommunication" />
+				<param DependentPropertyValue="1" />
+			</rule>
+		</property>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

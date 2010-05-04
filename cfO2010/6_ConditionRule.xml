@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>6_ConditionRule</name>
+<help></help>
+<starttext><![CDATA[<property name="LikeOther" desc="What do you like?">
+			<rule type="required" condition="MustLikeSomething"
+				failureMessage="If you don't like Cheese and you don't like Chocolate, you must like something!">
+			</rule>
+		</property>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

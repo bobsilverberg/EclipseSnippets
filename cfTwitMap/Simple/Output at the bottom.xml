@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>Output at the bottom</name>
+<help></help>
+<starttext><![CDATA[			<cfoutput>
+			<p>
+				Twitter reported #user.friends_count# friends
+				<cfif user.friends_count GT 100>, but I only looked up the first 100. Call me lazy</cfif>.<br />
+				The whole thing took #GetTickCount()-StartTime# ms.<br />
+			</p>
+			</cfoutput>
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

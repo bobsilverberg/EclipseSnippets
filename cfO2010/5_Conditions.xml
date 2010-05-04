@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>5_Conditions</name>
+<help></help>
+<starttext><![CDATA[<conditions>
+		<condition name="MustLikeSomething" 
+			serverTest="getLikeCheese() EQ 0 AND getLikeChocolate() EQ 0"
+			clientTest="$(&quot;[name='LikeCheese']&quot;).getValue() == 0 &amp;&amp; $(&quot;[name='LikeChocolate']&quot;).getValue() == 0;" />
+	</conditions>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

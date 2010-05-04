@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snippet filetemplate="false" extension="">
-<name>Wrap in a tag</name>
+<name>Add an anchor tag</name>
 <help></help>
 <starttext><![CDATA[<a href="$${link}" target="_blank">]]></starttext>
 <endtext><![CDATA[</a>]]></endtext>

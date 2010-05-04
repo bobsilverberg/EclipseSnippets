@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>transaction</name>
+<help></help>
+<starttext><![CDATA[tx = ormGetSession().beginTransaction();
+
+try
+{]]></starttext>
+<endtext><![CDATA[	tx.commit();
+}
+catch(Any exc)
+{
+	tx.rollback();
+	rethrow;
+}]]></endtext>
+</snippet>
