@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>Add text for popup marker</name>
+<help></help>
+<starttext><![CDATA[					<cfif StructKeyExists(friend,"status") AND StructKeyExists(friend.status,"text")>
+						<cfset friendLocation.status = friend.status.text />
+					</cfif>
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

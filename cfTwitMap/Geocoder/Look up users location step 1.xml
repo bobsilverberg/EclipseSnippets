@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>Look up users location step 1</name>
+<help></help>
+<starttext><![CDATA[			<cfset geoCode = application.geo.googlegeocoder3(user.location) />
+			<cfdump var="#geoCode#">
+			<cfabort>
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

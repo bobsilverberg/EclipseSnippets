@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>JS to generate markers etc</name>
+<help></help>
+<starttext><![CDATA[			<cfoutput>	
+			<script type="text/javascript" src="/cfTwitMap/markerclusterer_packed.js"></script>
+			<script type="text/javascript">
+				// the array of locations
+				var data = {"count": #ArrayLen(locations)#, "locations" :#SerializeJSON(locations)#};
+
+				// the routine to create markers and add them to the MarkerClusterer
+				function load(){
+					var markers = [];
+					for (var i = 0; i < data.count; ++i) {
+						var latlng = new GLatLng(data.locations[i].LATITUDE, data.locations[i].LONGITUDE);
+						var opts = {
+							title: data.locations[i].SCREENNAME,
+							draggable: true
+						};
+						var marker = new GMarker(latlng, opts);
+						markers.push(marker);
+					}
+					var markerCluster = new MarkerClusterer(ColdFusion.Map.getMapObject("twitMap"), markers);
+				}
+			</script>
+			<!--- Don't forget to change the body tag to call load() --->
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

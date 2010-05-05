@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>Deal with coordinates</name>
+<help></help>
+<starttext><![CDATA[<cfif listLen(friend.location,":") EQ 2 AND listLen(listLast(friend.location,":")) EQ 2>
+							<cfset friendLocation = application.geo.googlegeocoder3(latlng=listLast(friend.location,":")) />
+						<cfelse>						</cfif>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>
