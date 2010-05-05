@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>Check and fix duplicates</name>
+<help></help>
+<starttext><![CDATA[					<cfset dupKey = hash(friendGeo.latitude & "," & friendGeo.longitude) />
+					<cfif structKeyExists(coords,dupKey)>
+						<cfset friendLocation.latitude = listFirst(coords[dupKey]) + 0.01 /> 
+						<cfset friendLocation.longitude = listLast(coords[dupKey]) + 0.01 />
+					<cfelse>
+						<cfset friendLocation.longitude=geoCode.longitude />
+						<cfset friendLocation.latitude=geoCode.latitude />
+					</cfif>
+					<cfset coords[dupKey] = friendLocation.latitude & "," & friendLocation.longitude />
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>
