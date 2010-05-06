@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>5_Use cached versions of friends locations</name>
+<help></help>
+<starttext><![CDATA[<cfset friendGeo = objectLoad("geoCode_#friend.screen_name#.obj") />]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snippet filetemplate="false" extension="">
-<name>Get current user from Twitter</name>
+<name>2_Get current user from Twitter</name>
 <help></help>
 <starttext><![CDATA[<cfset user = application.twitter.getUserDetails(form.screenName,"json") />]]></starttext>
 <endtext><![CDATA[]]></endtext>

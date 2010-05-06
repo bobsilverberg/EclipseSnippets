@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snippet filetemplate="false" extension="">
-<name>Get friends from Twitter</name>
+<name>3_Get friends from Twitter</name>
 <help></help>
 <starttext><![CDATA[<cfset response = application.twitter.getFriendsStatus(screen_name=form.screenName,cursor=-1,format="json") />]]></starttext>
 <endtext><![CDATA[]]></endtext>

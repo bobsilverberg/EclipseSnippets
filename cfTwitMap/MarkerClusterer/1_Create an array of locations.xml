@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snippet filetemplate="false" extension="">
-<name>Create an array of locations</name>
+<name>1_Create an array of locations</name>
 <help></help>
-<starttext><![CDATA[			<cfset locations = [] />
+<starttext><![CDATA[<cfset locations = [] />
 			<cfloop array="#response.users#" index="friend">
 				<cfset friendLocation = {} />
 				<!--- use cached version of location --->
 				<cfset friendGeo = objectLoad("geoCode_#friend.screen_name#.obj") />
 				<cfif friendGeo.status EQ "OK">
-					<cfset friendLocation.longitude=geoCode.longitude />
-					<cfset friendLocation.latitude=geoCode.latitude />
+					<cfset friendLocation.longitude=friendGeo.longitude />
+					<cfset friendLocation.latitude=friendGeo.latitude />
 					<cfset friendLocation.screenName=friend.screen_name />
 					<cfset ArrayAppend(locations,friendLocation) />
 				</cfif>
-			</cfloop>
-]]></starttext>
+			</cfloop>]]></starttext>
 <endtext><![CDATA[]]></endtext>
 </snippet>

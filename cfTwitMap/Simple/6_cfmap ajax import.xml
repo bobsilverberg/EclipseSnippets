@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snippet filetemplate="false" extension="">
-<name>cfmap ajax import</name>
+<name>6_cfmap ajax import</name>
 <help></help>
 <starttext><![CDATA[<cfajaximport params="#{googlemapkey='ABQIAAAA9rsOEbAJ3clHWom7YCI2GBTqf0hJG5-D8oQaBrF_aDwgwyFrKBTpWz_ie3ppeiUlJQvGN2T-0d1w1w'}#" />]]></starttext>
 <endtext><![CDATA[]]></endtext>

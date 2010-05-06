@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snippet filetemplate="false" extension="">
-<name>Text option for inline script</name>
+<name>5_Get cahced response from Twitter</name>
 <help></help>
-<starttext><![CDATA[							text: data.locations[i].STATUS,
-]]></starttext>
+<starttext><![CDATA[<cfset response = objectLoad("twitterFriends.obj") />]]></starttext>
 <endtext><![CDATA[]]></endtext>
 </snippet>

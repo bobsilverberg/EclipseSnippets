@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<snippet filetemplate="false" extension="">
-<name>instantiate geocoder</name>
-<help></help>
-<starttext><![CDATA[	<cfset application.geo = createObject("component", "com.GoogleGeocoderV3.googlegeocoder3") />]]></starttext>
-<endtext><![CDATA[]]></endtext>
-</snippet>

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snippet filetemplate="false" extension="">
-<name>New body tag</name>
+<name>3_New body tag</name>
 <help></help>
-<starttext><![CDATA[	<cfif len(form.screenName)>
+<starttext><![CDATA[<cfif len(form.screenName)>
 		<body onload="load()">
 	<cfelse>
 		<body>
-	</cfif>
-]]></starttext>
+	</cfif>]]></starttext>
 <endtext><![CDATA[]]></endtext>
 </snippet>

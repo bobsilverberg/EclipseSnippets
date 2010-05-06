@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>4_Use Cached Version of User Location</name>
+<help></help>
+<starttext><![CDATA[<cfset myLocation = objectLoad("geoCode_#form.screenName#.obj") />]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

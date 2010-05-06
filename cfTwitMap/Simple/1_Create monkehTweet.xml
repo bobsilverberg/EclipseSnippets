@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snippet filetemplate="false" extension="">
-<name>Create monkehTweet</name>
+<name>1_Create monkehTweet</name>
 <help></help>
 <starttext><![CDATA[<cfif not structKeyExists(application, "twitter") or structKeyExists(url, "init")>
 	<cfset application.twitter = createObject("component", "com.coldfumonkeh.monkehTweet").init("","",true) />
-</cfif>
-]]></starttext>
+</cfif>]]></starttext>
 <endtext><![CDATA[]]></endtext>
 </snippet>
