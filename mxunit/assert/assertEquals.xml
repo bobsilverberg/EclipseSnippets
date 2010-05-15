@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<snippet filetemplate="false" extension="cfm">
+<snippet filetemplate="false" extension="">
 <name>assertEquals</name>
 <help></help>
-<starttext><![CDATA[<cfset assertEquals($${expected},$${actual}]]></starttext>
-<endtext><![CDATA[,"$${message}")>]]></endtext>
+<starttext><![CDATA[assertEquals($${expected},$${actual});]]></starttext>
+<endtext><![CDATA[]]></endtext>
 </snippet>
