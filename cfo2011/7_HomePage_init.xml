@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>7_HomePage_init</name>
+<help></help>
+<starttext><![CDATA[    public any function init(any selenium) {
+		variables.selenium = arguments.selenium;
+		return this;
+    }
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

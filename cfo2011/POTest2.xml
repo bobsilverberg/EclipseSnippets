@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>POTest2</name>
+<help></help>
+<starttext><![CDATA[        loginPage = homePage.goToLoginPage();
+        assertTrue(loginPage.isCurrentPage());
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

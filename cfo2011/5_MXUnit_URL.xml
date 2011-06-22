@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>5_MXUnit_URL</name>
+<help></help>
+<starttext><![CDATA[http://localhost/cfo-2011-selenium/]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

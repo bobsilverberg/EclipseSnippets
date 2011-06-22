@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>doCommand</name>
+<help></help>
+<starttext><![CDATA[public void function $${cmd}($${args}) {
+		doCommand("$${cmd}",[arguments.$${args}]);
+	}]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

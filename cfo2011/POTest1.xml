@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>POTest1</name>
+<help></help>
+<starttext><![CDATA[    	homePage = new HomePage(selenium);
+    	homePage.goToHomePage();
+        assertTrue(homePage.isCurrentPage());
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

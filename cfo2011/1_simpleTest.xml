@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>1_simpleTest</name>
+<help></help>
+<starttext><![CDATA[<cfset selenium = new cfselenium.selenium() />
+<cfset selenium.start("http://localhost/cfo-2011-selenium/") />
+<cfset sleep(5000) />
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

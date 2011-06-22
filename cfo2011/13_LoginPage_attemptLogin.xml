@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>13_LoginPage_attemptLogin</name>
+<help></help>
+<starttext><![CDATA[    public any function attemptLogin(string userName, string password) {
+        variables.selenium.type("userName", arguments.userName);
+        variables.selenium.type("userPass", arguments.password);
+        clickAndWait("//input[@value='Log In']");
+        if (isCurrentPage()) {
+        	return this;
+        } else {
+	        return new WelcomePage(variables.selenium);
+        }
+    }
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

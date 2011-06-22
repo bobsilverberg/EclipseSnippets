@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>POTest4</name>
+<help></help>
+<starttext><![CDATA[        welcomePage = loginPage.attemptLogin("user","user");
+        assertTrue(welcomePage.isCurrentPage());
+        assertEquals("Welcome user", welcomePage.getWelcomeMessage());
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

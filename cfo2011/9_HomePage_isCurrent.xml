@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>9_HomePage_isCurrent</name>
+<help></help>
+<starttext><![CDATA[	public string function isCurrentPage() {
+		return variables.selenium.getTitle() EQ "Selenium Demo App";
+	}
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

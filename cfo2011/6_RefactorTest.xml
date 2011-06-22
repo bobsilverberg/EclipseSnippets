@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>6_RefactorTest</name>
+<help></help>
+<starttext><![CDATA[	private void function clickAndWait(string locator, numeric timeOut = 30000) {
+        selenium.click(arguments.locator);
+        selenium.waitForPageToLoad(arguments.timeOut);
+	}
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

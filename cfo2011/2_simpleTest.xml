@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>2_simpleTest</name>
+<help></help>
+<starttext><![CDATA[<cfset selenium.open("index.cfm") />
+<cfoutput>The current page title is: #selenium.getTitle()# <br/></cfoutput>
+<cfset sleep(5000) />]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

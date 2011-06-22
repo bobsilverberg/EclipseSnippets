@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>setget</name>
+<help></help>
+<starttext><![CDATA[<cffunction name="set$${uCaseProp}" access="public" returntype="void" output="false">
+		<cfargument name="$${lCaseProp}" type="string" required="true" />
+		<cfset variables.instance.$${lCaseProp} = arguments.$${lCaseProp} />
+	</cffunction>
+	<cffunction name="get$${uCaseProp}" access="public" returntype="string" output="false">
+		<cfreturn variables.instance.$${lCaseProp} />
+	</cffunction>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

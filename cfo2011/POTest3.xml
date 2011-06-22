@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="">
+<name>POTest3</name>
+<help></help>
+<starttext><![CDATA[        loginPage = loginPage.attemptLogin("bad","bad");
+        assertTrue(loginPage.isCurrentPage());
+        assertEquals("Close, but no cigar!", loginPage.getErrorMessage());
+]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>
